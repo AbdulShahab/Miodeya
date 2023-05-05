@@ -29,9 +29,9 @@
     height: 765px;
 }
 
-/* .header-frst img {
+.header-frst img {
     width: 80%;
-} */
+}
 
 .row {
     --bs-gutter-x: 0px !important;
@@ -128,4 +128,18 @@
         font-family: tt-norm-regular;
         font-weight: 100;
     }
+}
+
+@media screen and (max-width:768px) {
+    .header-frst img {
+        width: 100%;
+        margin-top: 13px;
+    }
+    .second-heading h3 {
+        color: #c8f2fd;
+        font-size: 32px;
+        font-family: 'Maison-Neue-Mono';
+        line-height: 1.2;
+    }
+
 }
