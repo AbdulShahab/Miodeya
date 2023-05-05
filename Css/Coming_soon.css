@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Maison-Neue-Mono;
+    src: url(../Font-family/FontsFree-Net-Maison-Neue-Mono.ttf);
+}
+
+@font-face {
+    font-family: tt-norm-bold;
+    src: url(../Font-family/TT\ Norms\ Pro\ Bold.otf);
+}
+
+@font-face {
+    font-family: tt-norm-regular;
+    src: url(../Font-family/TT\ Norms\ Pro\ Regular.otf);
+}
+
+.coming_soon_body {
+    background-image: url(../images/Full-page-bg-img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frst-sec {
+    background-image: url(../images/Header-bg-img_01.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    height: 765px;
+}
+
+/* .header-frst img {
+    width: 80%;
+} */
+
+.row {
+    --bs-gutter-x: 0px !important;
+}
+
+/* .header-frst {
+    height: 100vh;
+} */
+
+.header-head p {
+    font-family: Maison-Neue-Mono;
+    font-size: 36px;
+    color: #0748ef;
+    margin-top: 15px;
+    margin-bottom: -8px;
+    font-weight: 600;
+}
+
+.header-frst {
+    margin-bottom: 20px;
+}
+
+.second-heading h3 {
+    color: #c8f2fd;
+    font-size: 56px;
+    font-family: 'Maison-Neue-Mono';
+    line-height: 1.2;
+}
+
+.thrd-heading h3 {
+    color: #c8f2fd;
+    font-size: 18px;
+    font-family: tt-norm-bold;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.thrd-heading h3 span {
+    color: #a5c8d1;
+    font-size: 18px;
+    font-family: tt-norm-regular;
+    font-weight: 100;
+}
+
+.thrd-heading {
+    margin-bottom: 30px;
+}
+
+.list-intro ul li {
+    color: #a5c8d1;
+    font-size: 14px;
+    font-family: tt-norm-regular;
+    line-height: 2;
+    margin-bottom: 20px;
+    list-style: square;
+}
+
+.list-style-02 {
+    margin-top: -85px;
+}
+
+@media screen and (max-width:1024px) {
+    .list-style-02 {
+        margin-top: -100px;
+    }
+
+    .second-heading h3 {
+        color: #c8f2fd;
+        font-size: 40px;
+        font-family: 'Maison-Neue-Mono';
+        line-height: 1.2;
+    }
+
+    .header-head p {
+        font-family: Maison-Neue-Mono;
+        font-size: 28px;
+        color: #0748ef;
+        margin-top: 15px;
+        margin-bottom: -8px;
+        font-weight: 600;
+    }
+
+    .thrd-heading h3 {
+        color: #c8f2fd;
+        font-size: 16px;
+        font-family: tt-norm-bold;
+        font-weight: 100;
+        line-height: 1.6;
+    }
+
+    .thrd-heading h3 span {
+        color: #a5c8d1;
+        font-size: 16px;
+        font-family: tt-norm-regular;
+        font-weight: 100;
+    }
+}
